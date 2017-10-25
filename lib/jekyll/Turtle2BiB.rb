@@ -5,3 +5,6 @@ module Jekyll
     # Your code goes here...
   end
 end
+
+#include Turtle2BiB
+require "jekyll/commands/Turtle2BiB.rb"
