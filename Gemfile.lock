@@ -2,10 +2,26 @@ PATH
   remote: .
   specs:
     jekyll-Turtle2BiB (0.1.0)
+      bibtex-ruby (~> 4.0, >= 4.0.13)
+      citeproc-ruby (~> 1.1, >= 1.1.7)
+      csl-styles (~> 1.0, >= 1.0.1.6)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    bibtex-ruby (4.4.4)
+      latex-decode (~> 0.0)
+    citeproc (1.0.5)
+      namae (~> 0.8)
+    citeproc-ruby (1.1.8)
+      citeproc (>= 1.0.4, < 2.0)
+      csl (~> 1.4)
+    csl (1.4.5)
+      namae (~> 0.7)
+    csl-styles (1.0.1.8)
+      csl (~> 1.0)
+    latex-decode (0.3.1)
+    namae (0.11.3)
     rake (10.5.0)
 
 PLATFORMS

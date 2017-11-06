@@ -6,5 +6,9 @@ module Jekyll
   end
 end
 
+require 'bibtex'
+require 'citeproc/ruby'
+require 'csl/styles'
+
 #include Turtle2BiB
 require "jekyll/commands/Turtle2BiB.rb"
